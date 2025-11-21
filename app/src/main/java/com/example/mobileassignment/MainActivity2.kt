@@ -53,7 +53,7 @@ class MainActivity2 : AppCompatActivity() {
             }
         }
 
-        // Reveal answer of the saved card
+
         showABtn.setOnClickListener {
             if (selectedCard != null) {
                 answerText.text = selectedCard!!.answer
